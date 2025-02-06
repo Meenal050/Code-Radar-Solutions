@@ -8,6 +8,6 @@ int main() {
     scanf("%d",&a);
     printf("Age: %d",a);
     scanf("%s",&b)
-    printf("Hobby: %s",b );
+    printf("Hobby: %s",b);
     return 0;
 }
