@@ -1,14 +1,12 @@
 #include<stdio.h>
-int main(){
-    int cost,selling;
-    if (cost<selling){
-        printf("Profit");
-    }
-    else if(cost>selling){
-        printf("Loss");
-    }
-    else {
-        printf("No Profit No Loss");
-    }
-    return 0;
+int main()
+{
+int a,b;
+scanf("%d %d",&a,&b);
+if(a==b)
+{printf("No Profit No Loss");}
+else if(a<b)
+{printf("Profit");}
+else
+{printf("Loss");}
 }
