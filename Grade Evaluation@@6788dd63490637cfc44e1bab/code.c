@@ -22,5 +22,5 @@ int main(){
         printf("Invalid grade");
         break;
     }
-    return 0;
+     return 0;
     }
