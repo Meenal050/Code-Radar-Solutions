@@ -2,6 +2,7 @@
 int main(){
     int a;
     scanf("%d",&a);
+    if(1<a<7){
     switch(a){
         case 1:
         printf("Monday");
@@ -23,12 +24,10 @@ int main(){
         break;
         case 7:
         printf("Sunday");
-        break;
-        default:
-            printf("Invalid input");
-            break;
-        
+        break;   
+    }}
+    else{
+        printf("Invalid");
     }
     return 0;
-
 }
