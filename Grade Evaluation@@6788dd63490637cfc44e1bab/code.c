@@ -7,16 +7,16 @@ int main(){
         printf("Excellent");
         break;
         case B:
-        printf("Excellent");
+        printf("Good");
         break;
         case C:
-        printf("Excellent");
+        printf("Average");
         break;
         case D:
-        printf("Excellent");
+        printf("Below Average");
         break;
         case E:
-        printf("Excellent");
+        printf("Fail");
         break;
         default:
         printf("Invalid grade");
