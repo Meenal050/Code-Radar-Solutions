@@ -3,16 +3,16 @@ int main(){
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
     switch (c){
-        case 1:
+        case +:
         printf("%d",a+b);
         break;
-        case 2:
+        case -:
         printf("%d",a-b);
         break;
-        case 3:
+        case *:
         printf("%d",a*b);
         break;
-        case 4:
+        case /:
         printf("%d",a/b);
         break;
     }
