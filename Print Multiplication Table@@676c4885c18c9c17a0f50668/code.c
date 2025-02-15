@@ -2,8 +2,8 @@
 int main(){
     int a,i=1;
     scanf("%d",&a);
-    while(i<=a){
-        printf("%d*%d=%d",n,i,n*i);
+    while(i<=10){
+        printf("%d*%d=%d",a,i,a*i);
         i++;   
     }
     return 0;    
