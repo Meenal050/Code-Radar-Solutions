@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main(){
-int a;
+int a,i=0;
 scanf("%d",&a);
-i=0
 while i<=a:
 print(i)
 i++
